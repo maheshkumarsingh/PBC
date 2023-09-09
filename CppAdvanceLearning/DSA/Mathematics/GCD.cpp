@@ -3,6 +3,8 @@ using namespace std;
 
 int findGCD(int a, int b)
 {
+    if(b==0)
+    return a;
     
 }
 int main()

@@ -28,5 +28,15 @@ int main()
         cout << (*it).first << " " << (*it).second << endl;
         it++;
     }
+
+    map<int, int> ans;
+    //ans.insert({3,10});
+    //ans.insert({3,20});
+    ans.insert({3,30});
+    ans.insert({2,30});
+    for(auto &it : ans)
+    {
+        cout<<it.first<<" "<<it.second<<endl;
+    }
     return 0;
 }
